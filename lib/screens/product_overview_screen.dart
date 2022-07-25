@@ -24,11 +24,11 @@ class _ProductOverviewScreenState extends State<ProductOverviewScreen> {
         actions: [
           PopupMenuButton(
             itemBuilder: (_) => [
-              PopupMenuItem(
+              const PopupMenuItem(
                 child: Text('Only Favorites'),
                 value: FilterOptions.favorites,
               ),
-              PopupMenuItem(
+              const PopupMenuItem(
                 child: Text('Show All'),
                 value: FilterOptions.all,
               ),
